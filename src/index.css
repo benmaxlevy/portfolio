@@ -5,6 +5,12 @@ body {
     font-family: 'Quicksand', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    z-index: -1;
+}
+
+.navFix {
+    padding-left: 10px;
+    z-index: 1 !important;
 }
 
 code {
@@ -14,6 +20,8 @@ code {
 
 .parallax {
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .fixed {

@@ -1,0 +1,28 @@
+.About {
+    position: relative;
+    background-image: url("/public/aboutBackground.jpg");
+    height: 100vh;
+}
+
+.About h2, hr{
+    color: #fff;
+}
+
+.About hr {
+    width: 100%;
+    border: 1px solid #fff;
+    opacity: 1;
+}
+
+.aboutSection {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
