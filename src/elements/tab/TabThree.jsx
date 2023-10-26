@@ -4,60 +4,62 @@ import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
 
 const TabOne = [
+
     {
         image: '03',
         bigImage: '/assets/images/portfolio/dp-portfolio-03.jpg',
-        category: 'Web Design',
-        title: 'Mobile App landing Design'
+        category: 'Programming',
+        title: 'Hard at work'
     },
     {
         image: 'prog2',
         bigImage: '/assets/images/portfolio/dp-portfolio-prog2.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog3',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog3.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog4',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog4.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog5',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog5.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog6',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog6.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog7',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog7.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
-        image: 'prog8',
-        bigImage: '/assets/images/portfolio/dp-portfolio-prog8.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
+        category: 'Programming',
+        title: 'myBobcat - a student information app'
     },
     {
         image: 'prog9',
         bigImage: '/assets/images/portfolio/dp-portfolio-prog9.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
+        category: 'Programming',
+        title: 'myBobcat - events page'
     },
+    {
+        image: 'prog3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog3.jpg',
+        category: 'Programming',
+        title: 'A student\'s work with AI'
+    },
+    {
+        image: 'prog4',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog4.jpg',
+        category: 'Programming',
+        title: 'A self-developed TCP socket server in C++'
+    },
+    {
+        image: 'prog5',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog5.jpg',
+        category: 'Programming',
+        title: 'A flight instruction website developed for a client'
+    },
+    {
+        image: 'prog6',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog6.jpg',
+        category: '3D Printing',
+        title: 'Upgrading a motherboard and stepper drivers'
+    },
+    {
+        image: 'prog7',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog7.jpg',
+        category: '3D Printing',
+        title: 'The final result of the upgrades'
+    },
+    {
+        image: 'prog8',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog8.jpg',
+        category: 'Computers',
+        title: 'My current self-built computer'
+    },
+
 
 ]
 
@@ -167,56 +169,59 @@ const TabFour = [
         title: 'A true swimming family'
     },
     {
-        image: '01',
-        bigImage: '/assets/images/portfolio/dp-portfolio-01.jpg',
+        image: 'athletics3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-athletics3.jpg',
         category: 'Telemark Skiing',
         title: 'Skiing the slopes, one turn at a time'
     },
     {
-        image: 'athletics3',
-        bigImage: '/assets/images/portfolio/dp-portfolio-athletics3.jpg',
-        category: 'Web Design',
-        title: 'Mobile App landing Design'
+        image: '01',
+        bigImage: '/assets/images/portfolio/dp-portfolio-01.jpg',
+        category: 'Telemark Skiing',
+        title: 'Bonding with my father over skiing'
     },
+
     {
         image: 'athletics4',
         bigImage: '/assets/images/portfolio/dp-portfolio-athletics4.jpg',
-        category: 'Mobile App',
-        title: 'Logo Design creativity'
+        category: 'Telemark Skiing',
+        title: 'Becoming a better telemark skier'
     },
     {
         image: 'athletics5',
         bigImage: '/assets/images/portfolio/dp-portfolio-athletics5.jpg',
-        category: 'Mobile App',
-        title: 'Logo Design creativity'
+        category: 'Marlins Club Swim Team',
+        title: 'Blasting off the block'
     },
     {
         image: 'athletics6',
         bigImage: '/assets/images/portfolio/dp-portfolio-athletics6.jpg',
-        category: 'Mobile App',
-        title: 'Logo Design creativity'
+        category: 'Marlins Club Swim Team',
+        title: 'Improving my technique'
     },
 ]
 
 const TabFive = [
+
     {
         image: 'sam1',
         bigImage: '/assets/images/portfolio/dp-portfolio-sam1.jpg',
-        category: 'Telemark Skiing',
-        title: 'Skiing the slopes, one turn at a time'
-    },
-    {
-        image: 'sam2',
-        bigImage: '/assets/images/portfolio/dp-portfolio-sam2.jpg',
-        category: 'Telemark Skiing',
-        title: 'Skiing the slopes, one turn at a time'
+        category: 'Samaritans Hope',
+        title: 'Meeting the senior training manager'
     },
     {
         image: 'sam3',
         bigImage: '/assets/images/portfolio/dp-portfolio-sam3.jpg',
-        category: 'Telemark Skiing',
-        title: 'Skiing the slopes, one turn at a time'
+        category: 'Samaritans Hope',
+        title: 'Seeing Samaritans staff in person'
     },
+    {
+        image: 'sam2',
+        bigImage: '/assets/images/portfolio/dp-portfolio-sam2.jpg',
+        category: 'Samaritans Hope',
+        title: 'Running for suicide prevention'
+    },
+
 ]
 
 class TabStyleThree extends Component {
@@ -451,7 +456,7 @@ class TabStyleThree extends Component {
                                         }
                                         onMoveNextRequest={() =>
                                             this.setState({
-                                                tab4: (tab5 + 1) % TabFive.length,
+                                                tab5: (tab5 + 1) % TabFive.length,
                                             })
                                         }
                                         imageLoadErrorMessage = 'Image Loading ...'

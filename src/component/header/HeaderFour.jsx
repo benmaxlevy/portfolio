@@ -51,19 +51,24 @@ class HeaderFour extends Component{
             <header className={`header-area formobile-menu ${headerPosition} ${color}`}>
                 <div className="header-wrapper" id="header-wrapper">
                     <div className="header-left">
-                        <div className="logo">
-                                <a style={{cursor: "pointer"}} onClick={_ => (document.getElementById("port")).scrollIntoView({behavior: "smooth"})}>
-                                    BMLevy
-                                </a>
-                        </div>
+                        <nav className="mainmenunav d-lg-block">
+                            <ul className="mainmenu">
+                                <li><Link to="/" >Ben Levy</Link></li>
+                            </ul>
+                        </nav>
                     </div>
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
+                                <li className="has-droupdown"><Link to="/" >Abstracts</Link>
+                                    <ul className="submenu">
+                                        <li><a target="_blank" href="https://drive.google.com/file/d/1y6pANLTv0MXQmaVPykUfsrc58dNv-Be8/view?usp=sharing">Mental health differences</a></li>
+                                        <li><a target="_blank" href="https://drive.google.com/file/d/1B8N4bjYJrK1tqb7uqq8vvBmVp9hib1wb/view?usp=sharing">Cyber harassment effects</a></li>
+                                    </ul>
+                                </li>
                                 <li><a style={{cursor: "pointer"}} onClick={_ => (document.getElementById("port")).scrollIntoView({behavior: "smooth"})}>
                                     Portfolio
                                 </a></li>
-                                <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>
                         {/* Start Humberger Menu  */}

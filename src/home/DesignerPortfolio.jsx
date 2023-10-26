@@ -13,7 +13,7 @@ const SlideList = [
         category: 'This is who I am',
         description: 'I am a student looking to make our future world a better place through rigorous academic research.',
         buttonText: 'View Resume',
-        buttonLink: ''
+        buttonLink: 'https://drive.google.com/file/d/1BPpGn_r5ecUZuNDN8wBk82sWQ6s-1MZv/view?usp=sharing'
     }
 ]
 
@@ -47,7 +47,10 @@ const DesignerPortfolio = () => {
                                         </TextLoop>{" "}
                                         </h1>
                                         {value.description ? <p className="description">{value.description}</p> : ''}
-                                        {value.buttonText ? <div className="slide-btn"><a className="rn-button-style--2 btn-primary-color" href={`${value.buttonLink}`}>{value.buttonText}</a></div> : ''}
+                                        <div className="slide-btn">
+                                            <a target="_blank" className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>
+                                            <a style={{marginLeft: 5}} target="_blank" className="rn-button-style--2 btn-primary-color"  href='https://www.linkedin.com/in/benjamin-max-levy-20655819a/'>LinkedIn</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
