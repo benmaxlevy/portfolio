@@ -5,58 +5,58 @@ import 'react-image-lightbox/style.css';
 
 const TabOne = [
     {
-        image: '01',
-        bigImage: '/assets/images/portfolio/dp-portfolio-01.jpg',
-        category: 'Telemark Skiing',
-        title: 'Skiing the slopes, one turn at a time'
-    },
-    {
-        image: '02',
-        bigImage: '/assets/images/portfolio/dp-portfolio-02.jpg',
-        category: 'BBPVW Varsity Swim Team',
-        title: 'A true swimming family'
-    },
-    {
         image: '03',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-03.jpg',
+        bigImage: '/assets/images/portfolio/dp-portfolio-03.jpg',
         category: 'Web Design',
         title: 'Mobile App landing Design'
     },
     {
-        image: '04',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
-        title: 'Logo Design creativity'
+        image: 'prog2',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog2.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '05',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
-        title: 'T-shirt design is the part of design'
+        image: 'prog3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog3.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
+        image: 'prog4',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog4.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'prog5',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog5.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'prog6',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog6.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'prog7',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog7.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
+    },
+    {
+        image: 'prog8',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog8.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
+    },
+    {
+        image: 'prog9',
+        bigImage: '/assets/images/portfolio/dp-portfolio-prog9.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
 
 ]
@@ -64,118 +64,158 @@ const TabOne = [
 
 const TabTwo = [
     {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Logo design is the main part for a designer'
+        image: 'asr3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr3.jpg',
+        category: 'Obtaining a science research mentor',
+        title: 'Beginning the research journey'
     },
     {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'asr6',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr6.jpg',
+        category: 'Science research mentor',
+        title: 'Working with professionals to make a difference'
     },
     {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'App Landing',
-        title: 'Mobile App landign is a landing page design'
+        image: 'asr4',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr4.jpg',
+        category: 'Regeneron Westchester Science & Engineering Fair',
+        title: 'Setting up to present my research'
     },
     {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Dasboard',
-        title: 'Dasboard design is the main part for data management'
+        image: 'asr2',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr2.jpg',
+        category: 'Regeneron Westchester Science & Engineering Fair',
+        title: 'Advocating for positive change with research'
     },
     {
-        image: '10',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'T-shirt Design',
-        title: 'T-shirt design is the popular design for digital market'
+        image: 'asr1',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr1.jpg',
+        category: 'The Fab 5',
+        title: 'Making our symposiums shine'
     },
     {
-        image: '11',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'asr5',
+        bigImage: '/assets/images/portfolio/dp-portfolio-asr5.jpg',
+        category: 'The Fab 5',
+        title: 'The day of the symposium'
     },
+
 ]
 
 const TabThree = [
     {
-        image: '04',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-04.jpg',
-        category: 'Mobile App',
-        title: 'Getting tickets to the big show'
+        image: 'cap1',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap1.jpg',
+        category: 'Color guard',
+        title: 'Representing CAP during the Frosty Day parade'
     },
     {
-        image: '05',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-05.jpg',
-        category: 'Web Design',
-        title: 'Getting tickets to the big show'
+        image: 'cap8',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap8.jpg',
+        category: 'Color guard',
+        title: 'Honoring a beloved commander'
     },
     {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
+        image: 'cap2',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap2.jpg',
+        category: 'Encampment',
+        title: 'Celebrating the end of a great week'
     },
     {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'cap3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap3.jpg',
+        category: 'Encampment',
+        title: 'Reflecting on a great week'
     },
     {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'cap4',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap4.jpg',
+        category: 'Encampment',
+        title: 'Touring a C-5 Galaxy'
     },
     {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'cap5',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap5.jpg',
+        category: 'Encampment',
+        title: 'Being the guidon bearer for my flight'
+    },
+    {
+        image: 'cap7',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap7.jpg',
+        category: 'Encampment',
+        title: 'Bonding with fellow cadets'
+    },
+    {
+        image: 'cap9',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap9.jpg',
+        category: 'Encampment',
+        title: 'Looking back on a week filled with collaboration'
+    },
+    {
+        image: 'cap6',
+        bigImage: '/assets/images/portfolio/dp-portfolio-cap6.jpg',
+        category: 'Learning to fly',
+        title: 'Taking the controls of a Cessna 182'
     },
 ]
 
 const TabFour = [
     {
-        image: '06',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-06.jpg',
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
+        image: '02',
+        bigImage: '/assets/images/portfolio/dp-portfolio-02.jpg',
+        category: 'BBPVW Varsity Swim Team',
+        title: 'A true swimming family'
     },
     {
-        image: '07',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-07.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: '01',
+        bigImage: '/assets/images/portfolio/dp-portfolio-01.jpg',
+        category: 'Telemark Skiing',
+        title: 'Skiing the slopes, one turn at a time'
     },
     {
-        image: '08',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-08.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'athletics3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-athletics3.jpg',
+        category: 'Web Design',
+        title: 'Mobile App landing Design'
     },
     {
-        image: '09',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-09.jpg',
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        image: 'athletics4',
+        bigImage: '/assets/images/portfolio/dp-portfolio-athletics4.jpg',
+        category: 'Mobile App',
+        title: 'Logo Design creativity'
     },
     {
-        image: '10',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-10.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'athletics5',
+        bigImage: '/assets/images/portfolio/dp-portfolio-athletics5.jpg',
+        category: 'Mobile App',
+        title: 'Logo Design creativity'
     },
     {
-        image: '11',
-        bigImage: '/assets/images/portfolio/big/dp-big--portfolio-11.jpg',
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        image: 'athletics6',
+        bigImage: '/assets/images/portfolio/dp-portfolio-athletics6.jpg',
+        category: 'Mobile App',
+        title: 'Logo Design creativity'
+    },
+]
+
+const TabFive = [
+    {
+        image: 'sam1',
+        bigImage: '/assets/images/portfolio/dp-portfolio-sam1.jpg',
+        category: 'Telemark Skiing',
+        title: 'Skiing the slopes, one turn at a time'
+    },
+    {
+        image: 'sam2',
+        bigImage: '/assets/images/portfolio/dp-portfolio-sam2.jpg',
+        category: 'Telemark Skiing',
+        title: 'Skiing the slopes, one turn at a time'
+    },
+    {
+        image: 'sam3',
+        bigImage: '/assets/images/portfolio/dp-portfolio-sam3.jpg',
+        category: 'Telemark Skiing',
+        title: 'Skiing the slopes, one turn at a time'
     },
 ]
 
@@ -187,12 +227,13 @@ class TabStyleThree extends Component {
             tab2: 0,
             tab3: 0,
             tab4: 0,
+            tab5: 0,
             isOpen: false,
         };
     }
     render() {
         const {column } = this.props;
-        const { tab1, tab2, tab3, tab4, isOpen } = this.state;
+        const { tab1, tab2, tab3, tab4, tab5, isOpen } = this.state;
         return (
             <div>
                 <Tabs>
@@ -200,10 +241,11 @@ class TabStyleThree extends Component {
                         <div className="col-lg-12">
                             <div className="tablist-inner">
                                 <TabList className="pv-tab-button text-center mt--0">
-                                    <Tab><span>All Project</span></Tab>
-                                    <Tab><span>Web Design</span></Tab>
-                                    <Tab><span>Logo Design</span></Tab>
-                                    <Tab><span>Mobile App</span></Tab>
+                                    <Tab><span>Technology</span></Tab>
+                                    <Tab><span>Authentic Science Research</span></Tab>
+                                    <Tab><span>Civil Air Patrol</span></Tab>
+                                    <Tab><span>Athletics</span></Tab>
+                                    <Tab><span>Samaritans Hope</span></Tab>
                                 </TabList>
                             </div>
                         </div>
@@ -393,7 +435,51 @@ class TabStyleThree extends Component {
                         ))}
                     </TabPanel>
 
-
+                    <TabPanel className="row row--35">
+                        {TabFive.map((value , index) => (
+                            <div className={`${column}`} key={index}>
+                                {isOpen && (
+                                    <Lightbox
+                                        mainSrc={TabFive[tab5].bigImage}
+                                        nextSrc={TabFive[(tab5 + 1) % TabFive.length]}
+                                        prevSrc={TabFive[(tab5 + TabFive.length - 1) % TabFive.length]}
+                                        onCloseRequest={() => this.setState({ isOpen: false })}
+                                        onMovePrevRequest={() =>
+                                            this.setState({
+                                                tab4: (tab5 + TabFive.length - 1) % TabFive.length,
+                                            })
+                                        }
+                                        onMoveNextRequest={() =>
+                                            this.setState({
+                                                tab4: (tab5 + 1) % TabFive.length,
+                                            })
+                                        }
+                                        imageLoadErrorMessage = 'Image Loading ...'
+                                        enableZoom={false}
+                                    />
+                                )}
+                                <div className="item-portfolio-static">
+                                    <div onClick={() => this.setState({ isOpen: true, tab5: index })}>
+                                        <div className="portfolio-static">
+                                            <div className="thumbnail-inner">
+                                                <div className="thumbnail">
+                                                    <a href="#portfolio-details">
+                                                        <img src={`/assets/images/portfolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div className="content">
+                                                <div className="inner">
+                                                    <p>{value.category}</p>
+                                                    <h4><a href="#portfolio-details">{value.title}</a></h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </TabPanel>
 
                 </Tabs>
             </div>
