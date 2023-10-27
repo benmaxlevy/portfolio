@@ -48,8 +48,9 @@ const DesignerPortfolio = () => {
                                         </h1>
                                         {value.description ? <p className="description">{value.description}</p> : ''}
                                         <div className="slide-btn">
-                                            <a target="_blank" className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>
-                                            <a style={{marginLeft: 5}} target="_blank" className="rn-button-style--2 btn-primary-color"  href='https://www.linkedin.com/in/benjamin-max-levy-20655819a/'>LinkedIn</a>
+                                            <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>
+                                            <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href='https://www.linkedin.com/in/benjamin-max-levy-20655819a/'>LinkedIn</a>
+                                            <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href='https://github.com/benmaxlevy'>GitHub</a>
                                         </div>
                                     </div>
                                 </div>
