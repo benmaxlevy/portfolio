@@ -13,7 +13,7 @@ const SlideList = [
         category: 'This is who I am',
         description: 'This website that I developed and self-host provides a glimpse into me as a person. I am a student looking to make our future world a better place through rigorous academic research.',
         buttonText: 'View Resume',
-        buttonLink: 'https://drive.google.com/file/d/1BPpGn_r5ecUZuNDN8wBk82sWQ6s-1MZv/view?usp=sharing'
+        buttonLink: 'https://drive.google.com/file/d/1MxblBHUxrb0q9Op0akOk3iLF5sdPyMqL/view?usp=sharing'
     }
 ]
 
