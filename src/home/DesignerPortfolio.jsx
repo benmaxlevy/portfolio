@@ -51,6 +51,7 @@ const DesignerPortfolio = () => {
                                             <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>
                                             <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href='https://www.linkedin.com/in/benjamin-max-levy-20655819a/'>LinkedIn</a>
                                             <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href='https://github.com/benmaxlevy'>GitHub</a>
+                                            <a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href='https://simplexwebsites.com'>Simplex Websites</a>
                                         </div>
                                     </div>
                                 </div>

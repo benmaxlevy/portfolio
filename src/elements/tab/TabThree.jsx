@@ -15,13 +15,17 @@ const TabOne = [
         image: 'prog2',
         bigImage: '/assets/images/portfolio/dp-portfolio-prog2.jpg',
         category: 'Programming',
-        title: 'myBobcat - a student information app'
+        title: 'myBobcat - a student information app',
+        buttonText: 'View App Store',
+        buttonLink: 'https://apps.apple.com/us/app/bhhs-mybobcat/id6462968639'
     },
     {
         image: 'prog9',
         bigImage: '/assets/images/portfolio/dp-portfolio-prog9.jpg',
         category: 'Programming',
-        title: 'myBobcat - events page'
+        title: 'myBobcat - events page',
+        buttonText: 'View Play Store',
+        buttonLink: 'https://play.google.com/store/apps/details?id=com.blaksky.myBobcat&hl=en_US&gl=US'
     },
     {
         image: 'prog3',
@@ -33,7 +37,9 @@ const TabOne = [
         image: 'prog4',
         bigImage: '/assets/images/portfolio/dp-portfolio-prog4.jpg',
         category: 'Programming',
-        title: 'A self-developed TCP socket server in C++'
+        title: 'A self-developed TCP socket server in C++',
+        buttonText: 'View GitHub',
+        buttonLink: 'https://github.com/benmaxlevy/basic_socket_server'
     },
     {
         image: 'prog5',
@@ -75,13 +81,17 @@ const TabTwo = [
         image: 'asr6',
         bigImage: '/assets/images/portfolio/dp-portfolio-asr6.jpg',
         category: 'Science research mentor',
-        title: 'Working with professionals to make a difference'
+        title: 'Working with professionals to make a difference',
+        buttonText: 'View First Abstract',
+        buttonLink: 'https://drive.google.com/file/d/1B8N4bjYJrK1tqb7uqq8vvBmVp9hib1wb/view?usp=sharing'
     },
     {
         image: 'asr4',
         bigImage: '/assets/images/portfolio/dp-portfolio-asr4.jpg',
         category: 'Regeneron Westchester Science & Engineering Fair',
-        title: 'Setting up to present my research'
+        title: 'Setting up to present my research',
+        buttonText: 'View Second Abstract',
+        buttonLink: 'https://drive.google.com/file/d/1ICw3NV2D7Mvg-rAfs4Oc_4Cwu_nVGlZB/view?usp=sharing'
     },
     {
         image: 'asr2',
@@ -109,7 +119,9 @@ const TabThree = [
         image: 'cap1',
         bigImage: '/assets/images/portfolio/dp-portfolio-cap1.jpg',
         category: 'Color guard',
-        title: 'Representing CAP during the Frosty Day parade'
+        title: 'Representing CAP during the Frosty Day parade',
+        buttonText: 'View Website',
+        buttonLink: 'https://gocivilairpatrol.com'
     },
     {
         image: 'cap8',
@@ -207,19 +219,24 @@ const TabFive = [
         image: 'sam1',
         bigImage: '/assets/images/portfolio/dp-portfolio-sam1.jpg',
         category: 'Samaritans Hope',
-        title: 'Meeting the senior training manager'
+        title: 'Meeting the senior training manager',
+        buttonText: 'View Website',
+        buttonLink: 'https://samaritanshope.org'
+
     },
     {
         image: 'sam3',
         bigImage: '/assets/images/portfolio/dp-portfolio-sam3.jpg',
         category: 'Samaritans Hope',
-        title: 'Seeing Samaritans staff in person'
+        title: 'Seeing Samaritans staff in person',
+
     },
     {
         image: 'sam2',
         bigImage: '/assets/images/portfolio/dp-portfolio-sam2.jpg',
         category: 'Samaritans Hope',
-        title: 'Running for suicide prevention'
+        title: 'Running for suicide prevention',
+
     },
 
 ]
@@ -297,6 +314,10 @@ class TabStyleThree extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    { (value.buttonText && value.buttonLink) ?
+                                        (<a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>)
+                                        : (<></>)
+                                    }
                                 </div>
                             </div>
                         ))}
@@ -343,6 +364,10 @@ class TabStyleThree extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    { (value.buttonText && value.buttonLink) ?
+                                        (<a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>)
+                                         : (<></>)
+                                    }
                                 </div>
                             </div>
                         ))}
@@ -389,6 +414,10 @@ class TabStyleThree extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    { (value.buttonText && value.buttonLink) ?
+                                        (<a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>)
+                                        : (<></>)
+                                    }
                                 </div>
                             </div>
                         ))}
@@ -435,6 +464,10 @@ class TabStyleThree extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    { (value.buttonText && value.buttonLink) ?
+                                        (<a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>)
+                                        : (<></>)
+                                    }
                                 </div>
                             </div>
                         ))}
@@ -481,6 +514,10 @@ class TabStyleThree extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    { (value.buttonText && value.buttonLink) ?
+                                        (<a target="_blank" style={{marginRight: 5, marginBottom: 5}} className="rn-button-style--2 btn-primary-color"  href={`${value.buttonLink}`}>{value.buttonText}</a>)
+                                        : (<></>)
+                                    }
                                 </div>
                             </div>
                         ))}
