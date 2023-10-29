@@ -11,7 +11,7 @@ const SlideList = [
     {
         textPosition: 'text-left',
         category: 'This is who I am',
-        description: 'I am a student looking to make our future world a better place through rigorous academic research.',
+        description: 'This website that I developed and self-host provides a glimpse into me as a person. I am a student looking to make our future world a better place through rigorous academic research.',
         buttonText: 'View Resume',
         buttonLink: 'https://drive.google.com/file/d/1BPpGn_r5ecUZuNDN8wBk82sWQ6s-1MZv/view?usp=sharing'
     }

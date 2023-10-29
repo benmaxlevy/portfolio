@@ -133,7 +133,7 @@ const TabThree = [
         image: 'cap2',
         bigImage: '/assets/images/portfolio/dp-portfolio-cap2.jpg',
         category: 'Encampment',
-        title: 'Celebrating the end of a great week'
+        title: 'Celebrating the end of a week filled with learning'
     },
     {
         image: 'cap3',
@@ -163,7 +163,7 @@ const TabThree = [
         image: 'cap9',
         bigImage: '/assets/images/portfolio/dp-portfolio-cap9.jpg',
         category: 'Encampment',
-        title: 'Looking back on a week filled with collaboration'
+        title: 'Looking back on a week full of collaboration'
     },
     {
         image: 'cap6',
