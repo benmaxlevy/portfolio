@@ -83,7 +83,7 @@ const TabTwo = [
         category: 'Science research mentor',
         title: 'Working with professionals to make a difference',
         buttonText: 'View First Abstract',
-        buttonLink: 'https://drive.google.com/file/d/1B8N4bjYJrK1tqb7uqq8vvBmVp9hib1wb/view?usp=sharing'
+        buttonLink: '/assets/pdfs/Harassment.pdf'
     },
     {
         image: 'asr4',
@@ -91,7 +91,7 @@ const TabTwo = [
         category: 'Regeneron Westchester Science & Engineering Fair',
         title: 'Setting up to present my research',
         buttonText: 'View Second Abstract',
-        buttonLink: 'https://drive.google.com/file/d/1ICw3NV2D7Mvg-rAfs4Oc_4Cwu_nVGlZB/view?usp=sharing'
+        buttonLink: '/assets/pdfs/Differences.pdf'
     },
     {
         image: 'asr2',
